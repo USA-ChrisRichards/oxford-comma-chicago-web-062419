@@ -18,7 +18,7 @@ def oxford_comma(array)
   str = arr.join(", ") 
   puts str
   arr = str.split(',')
-  str = arr.concat('')
+  str = arr.join('')
   print str
   end
 end
