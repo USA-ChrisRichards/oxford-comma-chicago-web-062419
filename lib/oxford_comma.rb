@@ -11,9 +11,7 @@ def oxford_comma(array)
     str
   elsif array.size > 3
   str = array.join(", ") 
-  puts str
   arr = str.split(',') 
-  puts arr
   x = array.size - 1
   arr = arr.insert(x, "and") 
   puts arr
