@@ -12,6 +12,5 @@ def oxford_comma(array)
   elsif array.size >= 3
     last_element = "and #{array[-1]}"
     array.join(", ")
-    
   end
 end
