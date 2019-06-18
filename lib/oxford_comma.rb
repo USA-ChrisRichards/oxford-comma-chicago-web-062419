@@ -18,6 +18,6 @@ def oxford_comma(array)
   str = arr.join(", ") 
   puts str
   arr = str.split(' ')
-  puts arr
+  print arr
   end
 end
