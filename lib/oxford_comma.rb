@@ -13,7 +13,7 @@ def oxford_comma(array)
   str = array.join(", ") 
   arr = str.split(',') 
   x = array.size - 1
-  arr = arr.insert(x, "and") 
+  arr = arr.insert(x, " and") 
   puts arr
   str = arr.join(",") 
   end
