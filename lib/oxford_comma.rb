@@ -10,11 +10,11 @@ def oxford_comma(array)
     str = arr.join(" ")
     str
   elsif array.size > 3
-  str = array.join(", ")
-  arr = str.split(',')
+  str = array.join(", ") puts str
+  arr = str.split(',') puts arr
   x = array.size - 1
-  arr = arr.insert(x, "and")
-  str = arr.join(", ")
+  arr = arr.insert(x, "and") puts arr
+  str = arr.join(", ") puts str
   str
   end
 end
