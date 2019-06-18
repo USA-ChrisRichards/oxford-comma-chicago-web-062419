@@ -10,6 +10,6 @@ def oxford_comma(array)
     str = arr.join(" ")
     str
   elsif array.size >= 3
-   
+    print array[-1] 
   end
 end
