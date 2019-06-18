@@ -9,12 +9,7 @@ def oxford_comma(array)
     arr = arr.insert(2, "and")
     str = arr.join(" ")
     str
-  elsif array.size > 3
-  str = array.join(", ") 
-  arr = str.split(',') 
-  x = array.size - 1
-  arr = arr.insert(x, " and") 
-  print arr
-  str = arr.join(",") 
+  elsif array.size >= 3
+   
   end
 end
