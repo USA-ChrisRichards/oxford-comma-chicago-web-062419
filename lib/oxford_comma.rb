@@ -10,6 +10,8 @@ def oxford_comma(array)
     str = arr.join(" ")
     str
   elsif array.size >= 3
-    print array[-1] 
+    last_element = "and #{array[-1]}"
+    array.join(", ")
+    
   end
 end
